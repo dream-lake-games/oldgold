@@ -1,0 +1,15 @@
+[remap]
+
+importer="2delight.aseprite_scene"
+importer_version=2
+type="PackedScene"
+uid="uid://d2j0s7nfryavj"
+path="res://.godot/imported/fountain.aseprite-af8eb160970c3629d903199abf643f35.scn"
+
+[deps]
+
+source_file="res://world/misc/fountain.aseprite"
+dest_files=["res://.godot/imported/fountain.aseprite-af8eb160970c3629d903199abf643f35.scn"]
+
+[params]
+

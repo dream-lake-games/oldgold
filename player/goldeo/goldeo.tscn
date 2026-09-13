@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://b1tird05h77ca"]
 
 [ext_resource type="Script" uid="uid://c3fthuif1p6ep" path="res://player/goldeo/goldeo.gd" id="1_hm2s7"]
-[ext_resource type="PackedScene" uid="uid://dpm4uyc258386" path="res://play/goldeo.aseprite" id="1_wnoy3"]
+[ext_resource type="SpriteFrames" uid="uid://b6rum5f4l8tk6" path="res://player/goldeo/textures/goldeo_spriteframes.tres" id="2_hm2s7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_blmhc"]
 size = Vector2(12, 14)
@@ -13,6 +13,7 @@ script = ExtResource("1_hm2s7")
 position = Vector2(0, -7)
 shape = SubResource("RectangleShape2D_blmhc")
 
-[node name="Anim" parent="." unique_id=1799807045 instance=ExtResource("1_wnoy3")]
-position = Vector2(0, -7)
-speed_scale = 0.5
+[node name="Anim" type="AnimatedSprite2D" parent="." unique_id=1345110060]
+position = Vector2(1, -7)
+sprite_frames = ExtResource("2_hm2s7")
+animation = &"e_idle"

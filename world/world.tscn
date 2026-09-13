@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://lyisbqaumdqx"]
+
+[ext_resource type="Script" uid="uid://1oadds8lk8tk" path="res://world/world.gd" id="1_tcf2h"]
+[ext_resource type="PackedScene" uid="uid://b1tird05h77ca" path="res://player/goldeo/goldeo.tscn" id="2_4717r"]
+[ext_resource type="PackedScene" uid="uid://dfedce6ktsja5" path="res://world/camera.tscn" id="3_4717r"]
+
+[node name="World" type="Node2D" unique_id=86386185]
+script = ExtResource("1_tcf2h")
+
+[node name="Goldeo" parent="." unique_id=1907629656 instance=ExtResource("2_4717r")]
+
+[node name="Camera" parent="." unique_id=986772349 instance=ExtResource("3_4717r")]

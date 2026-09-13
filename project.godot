@@ -15,6 +15,10 @@ run/main_scene="uid://bplnxcsjgh86g"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+CameraManager="*uid://gkkdxmp7ywiy"
+
 [display]
 
 window/size/viewport_width=160
@@ -26,7 +30,33 @@ window/stretch/scale_mode="integer"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/2delight/plugin.cfg")
+enabled=PackedStringArray("res://addons/aseprite_spritesheet_importer/plugin.cfg")
+
+[importer_defaults]
+
+aseprite.spritesheet.importer={
+"compress/lossy_quality": 0.8,
+"compress/mode": 0,
+"compress/normal_map": false,
+"debug/keep_json": false,
+"debug/keep_png": false,
+"export_options/border_padding": 0,
+"export_options/extrude": false,
+"export_options/inner_padding": 0,
+"export_options/shape_padding": 0,
+"export_options/sheet_columns": 0,
+"export_options/sheet_height": 0,
+"export_options/sheet_rows": 0,
+"export_options/sheet_type": 0,
+"export_options/sheet_width": 0,
+"export_options/trim": false,
+"generate_resources/atlas_textures": false,
+"generate_resources/ignore_framerate": false,
+"generate_resources/spriteframes": true,
+"layers/export_hidden_layers": false,
+"layers/flatten_layer_groups": false,
+"layers/split_layers": false
+}
 
 [input]
 

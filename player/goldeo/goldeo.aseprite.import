@@ -1,15 +1,37 @@
 [remap]
 
-importer="2delight.aseprite_scene"
-importer_version=2
-type="PackedScene"
-uid="uid://dtrpdykugny3n"
-path="res://.godot/imported/goldeo.aseprite-24c385981031587e8c13ffb23e7f9021.scn"
+importer="aseprite.spritesheet.importer"
+type="PortableCompressedTexture2D"
+uid="uid://dw4utyv610kev"
+path="res://.godot/imported/goldeo.aseprite-24c385981031587e8c13ffb23e7f9021.res"
 
 [deps]
 
+files=["res://player/goldeo/textures/goldeo_spriteframes.tres"]
+
 source_file="res://player/goldeo/goldeo.aseprite"
-dest_files=["res://.godot/imported/goldeo.aseprite-24c385981031587e8c13ffb23e7f9021.scn"]
+dest_files=["res://.godot/imported/goldeo.aseprite-24c385981031587e8c13ffb23e7f9021.res", "res://player/goldeo/textures/goldeo_spriteframes.tres"]
 
 [params]
 
+layers/export_hidden_layers=false
+layers/flatten_layer_groups=false
+layers/split_layers=false
+generate_resources/atlas_textures=false
+generate_resources/spriteframes=true
+generate_resources/ignore_framerate=false
+export_options/sheet_type=0
+export_options/sheet_width=0
+export_options/sheet_height=0
+export_options/sheet_columns=0
+export_options/sheet_rows=0
+export_options/border_padding=0
+export_options/shape_padding=0
+export_options/inner_padding=0
+export_options/trim=false
+export_options/extrude=false
+compress/mode=0
+compress/lossy_quality=0.8
+compress/normal_map=false
+debug/keep_json=false
+debug/keep_png=false
