@@ -1,0 +1,15 @@
+[remap]
+
+importer="2delight.aseprite_scene"
+importer_version=2
+type="PackedScene"
+uid="uid://dtrpdykugny3n"
+path="res://.godot/imported/goldeo.aseprite-24c385981031587e8c13ffb23e7f9021.scn"
+
+[deps]
+
+source_file="res://player/goldeo/goldeo.aseprite"
+dest_files=["res://.godot/imported/goldeo.aseprite-24c385981031587e8c13ffb23e7f9021.scn"]
+
+[params]
+

@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://b1tird05h77ca"]
+
+[ext_resource type="Script" uid="uid://c3fthuif1p6ep" path="res://player/goldeo/goldeo.gd" id="1_hm2s7"]
+[ext_resource type="PackedScene" uid="uid://dpm4uyc258386" path="res://play/goldeo.aseprite" id="1_wnoy3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_blmhc"]
+size = Vector2(12, 14)
+
+[node name="Goldeo" type="CharacterBody2D" unique_id=1907629656]
+script = ExtResource("1_hm2s7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1038138991]
+position = Vector2(0, -7)
+shape = SubResource("RectangleShape2D_blmhc")
+
+[node name="Anim" parent="." unique_id=1799807045 instance=ExtResource("1_wnoy3")]
+position = Vector2(0, -7)
+speed_scale = 0.5

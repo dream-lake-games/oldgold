@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bplnxcsjgh86g"]
+
+[ext_resource type="Script" uid="uid://b7xnirmsfbagx" path="res://game/shell/shell.gd" id="1_ee0ki"]
+[ext_resource type="PackedScene" uid="uid://cm72f7v0ya6a5" path="res://game/main/main.tscn" id="2_pqh5j"]
+
+[node name="Shell" type="Node2D" unique_id=425658213]
+script = ExtResource("1_ee0ki")
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="." unique_id=2033110960]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SubViewport" type="SubViewport" parent="SubViewportContainer" unique_id=2065194303]
+handle_input_locally = false
+canvas_item_default_texture_filter = 0
+size = Vector2i(160, 144)
+render_target_update_mode = 4
+
+[node name="Main" parent="SubViewportContainer/SubViewport" unique_id=370754911 instance=ExtResource("2_pqh5j")]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="2delight.aseprite_scene"
+importer_version=2
+type="PackedScene"
+uid="uid://dyqf1foh0tfto"
+path="res://.godot/imported/testscene2.aseprite-a2aebf7939b5e797bc1af24aef6e76bf.scn"
+
+[deps]
+
+source_file="res://play/testscene2.aseprite"
+dest_files=["res://.godot/imported/testscene2.aseprite-a2aebf7939b5e797bc1af24aef6e76bf.scn"]
+
+[params]
+
