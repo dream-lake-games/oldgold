@@ -2,22 +2,22 @@
 
 importer="aseprite.spritesheet.importer"
 type="PortableCompressedTexture2D"
-uid="uid://bh4eeoefbcosp"
-path="res://.godot/imported/oldette.aseprite-92fa77ef61e8806af62087b946e377bb.res"
+uid="uid://dvft75kwmxh4o"
+path="res://.godot/imported/goldsville.aseprite-2261c42b3c6bc7a6175356287cf3c99b.res"
 
 [deps]
 
-files=["res://play/textures/oldette_spriteframes.tres"]
+files=["res://world/tilesets/textures/goldsville.tres", "res://world/tilesets/textures/goldsville_spriteframes.tres"]
 
-source_file="res://play/oldette.aseprite"
-dest_files=["res://.godot/imported/oldette.aseprite-92fa77ef61e8806af62087b946e377bb.res", "res://play/textures/oldette_spriteframes.tres"]
+source_file="res://world/tilesets/goldsville.aseprite"
+dest_files=["res://.godot/imported/goldsville.aseprite-2261c42b3c6bc7a6175356287cf3c99b.res", "res://world/tilesets/textures/goldsville.tres", "res://world/tilesets/textures/goldsville_spriteframes.tres"]
 
 [params]
 
 layers/export_hidden_layers=false
 layers/flatten_layer_groups=false
 layers/split_layers=false
-generate_resources/atlas_textures=false
+generate_resources/atlas_textures=true
 generate_resources/spriteframes=true
 generate_resources/ignore_framerate=false
 export_options/sheet_type=0

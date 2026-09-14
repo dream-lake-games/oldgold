@@ -1,0 +1,18 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bgadlyj3ysn5n"]
+
+[ext_resource type="Texture2D" path="res://.godot/imported/goldsville.aseprite-2261c42b3c6bc7a6175356287cf3c99b.res" id="1_lsixh"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lsixh"]
+atlas = ExtResource("1_lsixh")
+region = Rect2(0, 0, 256, 256)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lsixh")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 10.0
+}]

@@ -3,17 +3,19 @@
 [ext_resource type="Script" uid="uid://c3fthuif1p6ep" path="res://player/goldeo/goldeo.gd" id="1_hm2s7"]
 [ext_resource type="SpriteFrames" uid="uid://b6rum5f4l8tk6" path="res://player/goldeo/textures/goldeo_spriteframes.tres" id="2_hm2s7"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_blmhc"]
-size = Vector2(12, 14)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hm2s7"]
+size = Vector2(12, 4)
 
 [node name="Goldeo" type="CharacterBody2D" unique_id=1907629656]
+y_sort_enabled = true
 script = ExtResource("1_hm2s7")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1038138991]
-position = Vector2(0, -7)
-shape = SubResource("RectangleShape2D_blmhc")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=740923235]
+position = Vector2(0, -2)
+shape = SubResource("RectangleShape2D_hm2s7")
 
 [node name="Anim" type="AnimatedSprite2D" parent="." unique_id=1345110060]
-position = Vector2(1, -7)
+position = Vector2(0, -7)
 sprite_frames = ExtResource("2_hm2s7")
 animation = &"e_idle"
+speed_scale = 0.5

@@ -1,0 +1,120 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://c3yic4dxlx6mp"]
+
+[ext_resource type="Texture2D" uid="uid://crm16kowm0f6" path="res://world/tilesets/textures/ocean_0.tres" id="1_30lcy"]
+[ext_resource type="Texture2D" uid="uid://dpev80cjiyyst" path="res://world/tilesets/textures/ocean_1.tres" id="2_fv2l5"]
+[ext_resource type="Texture2D" uid="uid://dyt4rgpfwxyl0" path="res://world/tilesets/textures/ocean_2.tres" id="3_y5ju7"]
+[ext_resource type="Texture2D" uid="uid://dd5fnh6glx81t" path="res://world/tilesets/textures/ocean_3.tres" id="4_tm48i"]
+[ext_resource type="Texture2D" uid="uid://ccqstp8lot2de" path="res://world/tilesets/textures/ocean_4.tres" id="5_wb00u"]
+[ext_resource type="Texture2D" uid="uid://cvssp5md6i15s" path="res://world/tilesets/textures/ocean_6.tres" id="6_m8dpy"]
+[ext_resource type="Texture2D" uid="uid://hcth2hvu3gc0" path="res://world/tilesets/textures/ocean_7.tres" id="7_fa3xr"]
+[ext_resource type="Texture2D" uid="uid://d1b4qwjv3x4cb" path="res://world/tilesets/textures/ocean_8.tres" id="8_8qwvw"]
+[ext_resource type="Texture2D" uid="uid://bpsufjegvgax2" path="res://world/tilesets/textures/ocean_9.tres" id="9_kbbtg"]
+[ext_resource type="Texture2D" uid="uid://jniaqha1llhr" path="res://world/tilesets/textures/ocean_10.tres" id="10_yf72r"]
+[ext_resource type="Texture2D" uid="uid://cmucv1jbsscec" path="res://world/tilesets/textures/ocean_13.tres" id="13_wuf70"]
+[ext_resource type="Texture2D" uid="uid://cevyc3lqrakrj" path="res://world/tilesets/textures/ocean_14.tres" id="14_eptme"]
+[ext_resource type="Texture2D" uid="uid://d4lk5v3oon83l" path="res://world/tilesets/textures/ocean_15.tres" id="15_mtsvr"]
+[ext_resource type="Texture2D" uid="uid://d2x6fm1i14454" path="res://world/tilesets/textures/ocean_16.tres" id="16_28d5s"]
+[ext_resource type="Texture2D" uid="uid://dfa7xgo3fg3va" path="res://world/tilesets/textures/ocean_17.tres" id="17_rkepo"]
+[ext_resource type="Texture2D" uid="uid://cinnoqe4uofe5" path="res://world/tilesets/textures/ocean_18.tres" id="18_a6d27"]
+[ext_resource type="Texture2D" uid="uid://desahg1o8t15j" path="res://world/tilesets/textures/ocean_19.tres" id="19_lvlpj"]
+[ext_resource type="Texture2D" uid="uid://dr2hlvb8klkop" path="res://world/tilesets/textures/ocean_21.tres" id="19_m8dpy"]
+[ext_resource type="Texture2D" uid="uid://bpls6ufli2cxg" path="res://world/tilesets/textures/ocean_20.tres" id="20_4kvim"]
+[ext_resource type="Texture2D" uid="uid://b84og6iyv8v0y" path="res://world/tilesets/textures/ocean_22.tres" id="20_fa3xr"]
+[ext_resource type="Texture2D" uid="uid://dfqvdm3ywr620" path="res://world/tilesets/textures/ocean_23.tres" id="21_8qwvw"]
+[ext_resource type="Texture2D" uid="uid://wmcwrjn4a8s1" path="res://world/tilesets/textures/ocean_24.tres" id="22_kbbtg"]
+[ext_resource type="Texture2D" uid="uid://kd5cyhukoegf" path="res://world/tilesets/textures/ocean_25.tres" id="23_yf72r"]
+[ext_resource type="Texture2D" uid="uid://duyidencjga8f" path="res://world/tilesets/textures/ocean_26.tres" id="24_y28ww"]
+[ext_resource type="Texture2D" uid="uid://bg5f33qb12t88" path="res://world/tilesets/textures/ocean_27.tres" id="25_tto1p"]
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_m8dpy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fa3xr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_8qwvw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_kbbtg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_yf72r")
+}],
+"loop": 0,
+"name": &"corner_shore",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_30lcy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_fv2l5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_y5ju7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_tm48i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_wb00u")
+}],
+"loop": 0,
+"name": &"shore",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_wuf70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_eptme")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_mtsvr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_28d5s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_rkepo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_a6d27")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_lvlpj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_4kvim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_m8dpy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_fa3xr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_8qwvw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_kbbtg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_yf72r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_y28ww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_tto1p")
+}],
+"loop": 0,
+"name": &"wave",
+"speed": 10.0
+}]

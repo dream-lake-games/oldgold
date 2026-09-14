@@ -58,6 +58,21 @@ func validate() -> Error:
 		return ERR_UNCONFIGURED
 	return OK
 
+func list_layers(source_file: String) -> PackedStringArray:
+	var output = []
+	var err = execute(["--batch", "--list-layers", source_file], output)
+	if err != OK:
+		print("Failed to list layers\n", output)
+		return PackedStringArray()
+	
+	var names: PackedStringArray = []
+	for line in String(output[0]).split("\n"):
+		var layer_name := line.strip_edges()
+		if layer_name != "":
+			names.append(layer_name)
+	
+	return names
+
 func execute(args: Array, output: Array) -> Error:
 	return OS.execute(self.config.get_aseprite_cmd(), args, output, true) as Error
 
@@ -104,6 +119,10 @@ func export_spritesheet(source_file: String, aseprite_options: Options) -> Array
 		args += ["--trim"]
 	if aseprite_options.extrude:
 		args += ["--extrude"]
+	
+	for layer_name in list_layers(absolute_source_file):
+		if layer_name.begins_with("_"):
+			args += ["--ignore-layer", layer_name]
 	
 	args += ["--sheet", absolute_spritesheet_path]
 	args += ["--data", absolute_datafile_path]

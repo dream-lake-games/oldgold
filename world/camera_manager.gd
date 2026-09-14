@@ -72,21 +72,28 @@ func _invariants() -> void:
 	assert(_state.owner == null or _state.kind != CameraStateKind.UNKNOWN, "camera is owned but in unknown state")
 	assert(_state.kind == CameraStateKind.NONE or _state.instance != null, "camera exists but has no instance")
 
+func _ready() -> void:
+	process_priority = 100
+	process_physics_priority = 100
+
 func _process_follow(delta: float) -> void:
 	if _state.target == null:
 		return
-	var target_gpos: Vector2i = _state.target.global_position.round() as Vector2i
-	var my_gpos: Vector2i = _state.instance.global_position.round() as Vector2i
-	assert((my_gpos as Vector2).distance_squared_to(_state.instance.global_position) < 0.01, "something fucky in camera pos")
+	
+	var target_gpos = _state.target.global_position
+	var new_gpos = _state.instance.global_position
+	var dz = _state.deadzone as Vector2
 
-	if target_gpos.x + _state.deadzone.x < my_gpos.x:
-		_state.instance.global_position.x = target_gpos.x + _state.deadzone.x
-	if target_gpos.x - _state.deadzone.x > my_gpos.x:
-		_state.instance.global_position.x = target_gpos.x + _state.deadzone.x
-	if target_gpos.y + _state.deadzone.y < my_gpos.y:
-		_state.instance.global_position.y = target_gpos.y + _state.deadzone.y
-	if target_gpos.y - _state.deadzone.y > my_gpos.y:
-		_state.instance.global_position.y = target_gpos.y + _state.deadzone.y
+	if target_gpos.x + dz.x < new_gpos.x:
+		new_gpos.x = target_gpos.x + dz.x
+	if target_gpos.x - dz.x > new_gpos.x:
+		new_gpos.x = target_gpos.x - dz.x
+	if target_gpos.y + dz.y < new_gpos.y:
+		new_gpos.y = target_gpos.y + dz.y
+	if target_gpos.y - dz.y > new_gpos.y:
+		new_gpos.y = target_gpos.y - dz.y
+	
+	_state.instance.global_position = new_gpos
 	
 	
 func _process(delta: float) -> void:

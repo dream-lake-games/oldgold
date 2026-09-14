@@ -1,0 +1,37 @@
+[remap]
+
+importer="aseprite.spritesheet.importer"
+type="PortableCompressedTexture2D"
+uid="uid://biy416yyi41sd"
+path="res://.godot/imported/ocean.aseprite-e5e5ab20f7b7cb8000f6499e804dde29.res"
+
+[deps]
+
+files=["res://world/tilesets/textures/ocean_0.tres", "res://world/tilesets/textures/ocean_1.tres", "res://world/tilesets/textures/ocean_2.tres", "res://world/tilesets/textures/ocean_3.tres", "res://world/tilesets/textures/ocean_4.tres", "res://world/tilesets/textures/ocean_5.tres", "res://world/tilesets/textures/ocean_6.tres", "res://world/tilesets/textures/ocean_7.tres", "res://world/tilesets/textures/ocean_8.tres", "res://world/tilesets/textures/ocean_9.tres", "res://world/tilesets/textures/ocean_10.tres", "res://world/tilesets/textures/ocean_11.tres", "res://world/tilesets/textures/ocean_12.tres", "res://world/tilesets/textures/ocean_13.tres", "res://world/tilesets/textures/ocean_14.tres", "res://world/tilesets/textures/ocean_15.tres", "res://world/tilesets/textures/ocean_16.tres", "res://world/tilesets/textures/ocean_17.tres", "res://world/tilesets/textures/ocean_18.tres", "res://world/tilesets/textures/ocean_19.tres", "res://world/tilesets/textures/ocean_20.tres", "res://world/tilesets/textures/ocean_21.tres", "res://world/tilesets/textures/ocean_22.tres", "res://world/tilesets/textures/ocean_23.tres", "res://world/tilesets/textures/ocean_24.tres", "res://world/tilesets/textures/ocean_25.tres", "res://world/tilesets/textures/ocean_26.tres", "res://world/tilesets/textures/ocean_27.tres", "res://world/tilesets/textures/ocean_28.tres", "res://world/tilesets/textures/ocean_spriteframes.tres"]
+
+source_file="res://world/tilesets/ocean.aseprite"
+dest_files=["res://.godot/imported/ocean.aseprite-e5e5ab20f7b7cb8000f6499e804dde29.res", "res://world/tilesets/textures/ocean_0.tres", "res://world/tilesets/textures/ocean_1.tres", "res://world/tilesets/textures/ocean_2.tres", "res://world/tilesets/textures/ocean_3.tres", "res://world/tilesets/textures/ocean_4.tres", "res://world/tilesets/textures/ocean_5.tres", "res://world/tilesets/textures/ocean_6.tres", "res://world/tilesets/textures/ocean_7.tres", "res://world/tilesets/textures/ocean_8.tres", "res://world/tilesets/textures/ocean_9.tres", "res://world/tilesets/textures/ocean_10.tres", "res://world/tilesets/textures/ocean_11.tres", "res://world/tilesets/textures/ocean_12.tres", "res://world/tilesets/textures/ocean_13.tres", "res://world/tilesets/textures/ocean_14.tres", "res://world/tilesets/textures/ocean_15.tres", "res://world/tilesets/textures/ocean_16.tres", "res://world/tilesets/textures/ocean_17.tres", "res://world/tilesets/textures/ocean_18.tres", "res://world/tilesets/textures/ocean_19.tres", "res://world/tilesets/textures/ocean_20.tres", "res://world/tilesets/textures/ocean_21.tres", "res://world/tilesets/textures/ocean_22.tres", "res://world/tilesets/textures/ocean_23.tres", "res://world/tilesets/textures/ocean_24.tres", "res://world/tilesets/textures/ocean_25.tres", "res://world/tilesets/textures/ocean_26.tres", "res://world/tilesets/textures/ocean_27.tres", "res://world/tilesets/textures/ocean_28.tres", "res://world/tilesets/textures/ocean_spriteframes.tres"]
+
+[params]
+
+layers/export_hidden_layers=false
+layers/flatten_layer_groups=false
+layers/split_layers=false
+generate_resources/atlas_textures=true
+generate_resources/spriteframes=true
+generate_resources/ignore_framerate=false
+export_options/sheet_type=0
+export_options/sheet_width=0
+export_options/sheet_height=0
+export_options/sheet_columns=0
+export_options/sheet_rows=0
+export_options/border_padding=0
+export_options/shape_padding=0
+export_options/inner_padding=0
+export_options/trim=false
+export_options/extrude=false
+compress/mode=0
+compress/lossy_quality=0.8
+compress/normal_map=false
+debug/keep_json=false
+debug/keep_png=false

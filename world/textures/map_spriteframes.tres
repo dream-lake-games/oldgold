@@ -1,0 +1,18 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://ihlxiloe6pf3"]
+
+[ext_resource type="Texture2D" path="res://.godot/imported/map.aseprite-98602f7fa21e665ce4e092a07fe28e4a.res" id="1_mrkha"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mrkha"]
+atlas = ExtResource("1_mrkha")
+region = Rect2(0, 0, 160, 144)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mrkha")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 10.0
+}]
