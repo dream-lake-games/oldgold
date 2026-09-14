@@ -1,15 +1,37 @@
 [remap]
 
-importer="2delight.aseprite_scene"
-importer_version=2
-type="PackedScene"
+importer="aseprite.spritesheet.importer"
+type="PortableCompressedTexture2D"
 uid="uid://dyqf1foh0tfto"
-path="res://.godot/imported/testscene2.aseprite-a2aebf7939b5e797bc1af24aef6e76bf.scn"
+path="res://.godot/imported/testscene2.aseprite-a2aebf7939b5e797bc1af24aef6e76bf.res"
 
 [deps]
 
+files=["res://play/textures/testscene2_spriteframes.tres"]
+
 source_file="res://play/testscene2.aseprite"
-dest_files=["res://.godot/imported/testscene2.aseprite-a2aebf7939b5e797bc1af24aef6e76bf.scn"]
+dest_files=["res://.godot/imported/testscene2.aseprite-a2aebf7939b5e797bc1af24aef6e76bf.res", "res://play/textures/testscene2_spriteframes.tres"]
 
 [params]
 
+layers/export_hidden_layers=false
+layers/flatten_layer_groups=false
+layers/split_layers=false
+generate_resources/atlas_textures=false
+generate_resources/spriteframes=true
+generate_resources/ignore_framerate=false
+export_options/sheet_type=0
+export_options/sheet_width=0
+export_options/sheet_height=0
+export_options/sheet_columns=0
+export_options/sheet_rows=0
+export_options/border_padding=0
+export_options/shape_padding=0
+export_options/inner_padding=0
+export_options/trim=false
+export_options/extrude=false
+compress/mode=0
+compress/lossy_quality=0.8
+compress/normal_map=false
+debug/keep_json=false
+debug/keep_png=false

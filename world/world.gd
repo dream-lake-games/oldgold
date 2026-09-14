@@ -7,6 +7,8 @@ class_name World extends Node2D
 
 # KNOBS
 
+@export var deadzone: Vector2i = Vector2i(32, 16)
+
 # STATE
 
 # LOGIC
@@ -14,7 +16,7 @@ class_name World extends Node2D
 func _ready() -> void:
 	CameraManager.register_camera(_camera)
 	assert(CameraManager.try_claim(self), "world can't claim camera in ready")
-	CameraManager.set_following(self, _goldeo)
+	CameraManager.set_following(self, _goldeo, deadzone)
 
 func _exit_tree() -> void:
 	CameraManager.drop(self)

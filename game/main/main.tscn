@@ -1,15 +1,9 @@
 [gd_scene format=3 uid="uid://cm72f7v0ya6a5"]
 
 [ext_resource type="Script" uid="uid://dbwwlii8krghr" path="res://game/main/main.gd" id="1_5520f"]
-[ext_resource type="PackedScene" uid="uid://b1tird05h77ca" path="res://player/goldeo/goldeo.tscn" id="2_psm6y"]
-[ext_resource type="TileSet" uid="uid://dsu3uoilvcig8" path="res://world/tileset.tres" id="3_yil3p"]
+[ext_resource type="PackedScene" uid="uid://lyisbqaumdqx" path="res://world/world.tscn" id="2_psm6y"]
 
 [node name="Main" type="Node2D" unique_id=370754911]
 script = ExtResource("1_5520f")
 
-[node name="Goldeo" parent="." unique_id=1907629656 instance=ExtResource("2_psm6y")]
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1987336171]
-
-[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=112362039]
-tile_set = ExtResource("3_yil3p")
+[node name="World" parent="." unique_id=86386185 instance=ExtResource("2_psm6y")]

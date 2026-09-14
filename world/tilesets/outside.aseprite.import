@@ -2,22 +2,22 @@
 
 importer="aseprite.spritesheet.importer"
 type="PortableCompressedTexture2D"
-uid="uid://bh4eeoefbcosp"
-path="res://.godot/imported/oldette.aseprite-92fa77ef61e8806af62087b946e377bb.res"
+uid="uid://dr4acilc5k708"
+path="res://.godot/imported/outside.aseprite-60cda77c0714261e24c422d39bd27995.res"
 
 [deps]
 
-files=["res://play/textures/oldette_spriteframes.tres"]
+files=["res://world/tilesets/textures/outside.tres", "res://world/tilesets/textures/outside_spriteframes.tres"]
 
-source_file="res://play/oldette.aseprite"
-dest_files=["res://.godot/imported/oldette.aseprite-92fa77ef61e8806af62087b946e377bb.res", "res://play/textures/oldette_spriteframes.tres"]
+source_file="res://world/tilesets/outside.aseprite"
+dest_files=["res://.godot/imported/outside.aseprite-60cda77c0714261e24c422d39bd27995.res", "res://world/tilesets/textures/outside.tres", "res://world/tilesets/textures/outside_spriteframes.tres"]
 
 [params]
 
 layers/export_hidden_layers=false
 layers/flatten_layer_groups=false
 layers/split_layers=false
-generate_resources/atlas_textures=false
+generate_resources/atlas_textures=true
 generate_resources/spriteframes=true
 generate_resources/ignore_framerate=false
 export_options/sheet_type=0

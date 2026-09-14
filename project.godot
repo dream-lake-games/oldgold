@@ -25,7 +25,7 @@ window/size/viewport_width=160
 window/size/viewport_height=144
 window/size/window_width_override=1600
 window/size/window_height_override=1440
-window/stretch/mode="canvas_items"
+window/stretch/mode="viewport"
 window/stretch/scale_mode="integer"
 
 [editor_plugins]
@@ -50,7 +50,7 @@ aseprite.spritesheet.importer={
 "export_options/sheet_type": 0,
 "export_options/sheet_width": 0,
 "export_options/trim": false,
-"generate_resources/atlas_textures": false,
+"generate_resources/atlas_textures": true,
 "generate_resources/ignore_framerate": false,
 "generate_resources/spriteframes": true,
 "layers/export_hidden_layers": false,
@@ -118,3 +118,4 @@ rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 environment/defaults/default_clear_color=Color(0.8117647, 0.67058825, 0.31764707, 1)
+2d/snap/snap_2d_transforms_to_pixel=true

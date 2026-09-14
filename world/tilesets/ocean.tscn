@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://docfn2dm36wr6"]
+
+[ext_resource type="SpriteFrames" uid="uid://c3yic4dxlx6mp" path="res://world/tilesets/textures/ocean_spriteframes.tres" id="1_qp7mr"]
+[ext_resource type="Script" uid="uid://c2ak71phxt3op" path="res://world/tilesets/ocean.gd" id="2_ibgav"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_blmhc"]
+size = Vector2(9.75, 16)
+
+[node name="Ocean" type="AnimatedSprite2D" unique_id=480006628]
+z_index = -1
+sprite_frames = ExtResource("1_qp7mr")
+animation = &"wave"
+speed_scale = 0.25
+script = ExtResource("2_ibgav")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=776711250]
+visible = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1399437586]
+position = Vector2(-2.875, 0)
+shape = SubResource("RectangleShape2D_blmhc")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=373106420]
+z_index = -1
+position = Vector2(-15, 0)
+sprite_frames = ExtResource("1_qp7mr")
+animation = &"wave"
