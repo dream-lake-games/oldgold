@@ -17,6 +17,7 @@ class CameraState:
 	var kind: CameraStateKind = CameraStateKind.NONE
 	var instance: Camera2D = null
 	var owner: Node = null
+	var bounds: Rect2 = Rect2()
 
 	# Follow
 	var target: Node2D = null
@@ -56,6 +57,25 @@ func drop(entity: Node) -> bool:
 	_state.owner = null
 	return true
 
+func set_bounds(entity: Node, bounds: Rect2) -> bool:
+	if entity != _state.owner:
+		return false
+	
+	_state.bounds = bounds
+
+	if _state.bounds == Rect2():
+		_state.instance.limit_left = null
+		_state.instance.limit_right = null
+		_state.instance.limit_top = null
+		_state.instance.limit_bottom = null
+	else:
+		_state.instance.limit_left = round(_state.bounds.position.x) as int
+		_state.instance.limit_right = round(_state.bounds.end.x) as int
+		_state.instance.limit_top = round(_state.bounds.position.y) as int
+		_state.instance.limit_bottom = round(_state.bounds.end.y) as int
+	
+	return true
+
 func set_following(entity: Node, target: Node2D = null, deadzone: Vector2i = Vector2i.ZERO) -> bool:
 	if entity != _state.owner:
 		return false
@@ -65,6 +85,7 @@ func set_following(entity: Node, target: Node2D = null, deadzone: Vector2i = Vec
 	_state.deadzone = deadzone
 	
 	return true
+
 
 # LOGIC
 
