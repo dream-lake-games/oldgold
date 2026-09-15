@@ -2,15 +2,15 @@
 
 [ext_resource type="Texture2D" path="res://.godot/imported/fountain.aseprite-af8eb160970c3629d903199abf643f35.res" id="1_ilgcu"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_di7e0"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_ilgcu"]
 atlas = ExtResource("1_ilgcu")
 region = Rect2(96, 0, 96, 96)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_3og3j"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_di7e0"]
 atlas = ExtResource("1_ilgcu")
 region = Rect2(192, 0, 96, 96)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_h8aem"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_3og3j"]
 atlas = ExtResource("1_ilgcu")
 region = Rect2(288, 0, 96, 96)
 
@@ -18,13 +18,13 @@ region = Rect2(288, 0, 96, 96)
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_ilgcu")
+}, {
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_di7e0")
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_3og3j")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_h8aem")
 }],
 "loop": 0,
 "name": &"trickle",

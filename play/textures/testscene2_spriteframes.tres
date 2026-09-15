@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" path="res://.godot/imported/testscene2.aseprite-a2aebf7939b5e797bc1af24aef6e76bf.res" id="1_a2073"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_xaef0"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_a2073"]
 atlas = ExtResource("1_a2073")
 region = Rect2(0, 0, 160, 144)
 
@@ -10,7 +10,7 @@ region = Rect2(0, 0, 160, 144)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_xaef0")
+"texture": SubResource("AtlasTexture_a2073")
 }],
 "loop": 0,
 "name": &"default",

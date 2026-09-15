@@ -3,14 +3,14 @@
 importer="aseprite.spritesheet.importer"
 type="PortableCompressedTexture2D"
 uid="uid://bh4eeoefbcosp"
-path="res://.godot/imported/oldette.aseprite-92fa77ef61e8806af62087b946e377bb.res"
+path="res://.godot/imported/oldette.aseprite-4112a078dc2f9d49264375d61d8dd195.res"
 
 [deps]
 
-files=["res://play/textures/oldette_spriteframes.tres"]
+files=["res://npc/oldette/textures/oldette_spriteframes.tres"]
 
-source_file="res://play/oldette.aseprite"
-dest_files=["res://.godot/imported/oldette.aseprite-92fa77ef61e8806af62087b946e377bb.res", "res://play/textures/oldette_spriteframes.tres"]
+source_file="res://npc/oldette/oldette.aseprite"
+dest_files=["res://.godot/imported/oldette.aseprite-4112a078dc2f9d49264375d61d8dd195.res", "res://npc/oldette/textures/oldette_spriteframes.tres"]
 
 [params]
 

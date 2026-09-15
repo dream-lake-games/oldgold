@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://b1tird05h77ca" path="res://player/goldeo/goldeo.tscn" id="2_4717r"]
 [ext_resource type="SpriteFrames" uid="uid://ihlxiloe6pf3" path="res://world/textures/map_spriteframes.tres" id="2_sc4t8"]
 [ext_resource type="PackedScene" uid="uid://dfedce6ktsja5" path="res://world/camera.tscn" id="3_4717r"]
+[ext_resource type="PackedScene" uid="uid://deslbvsk6fhpe" path="res://npc/oldette/oldette.tscn" id="4_4papg"]
 [ext_resource type="Texture2D" uid="uid://bllmr32nr2e35" path="res://world/tilesets/textures/outside.tres" id="4_h5o24"]
 [ext_resource type="Texture2D" uid="uid://3eeiruqg5ag7" path="res://world/tilesets/textures/goldsville.tres" id="5_mmdvd"]
 [ext_resource type="PackedScene" uid="uid://docfn2dm36wr6" path="res://world/tilesets/ocean.tscn" id="7_sc4t8"]
@@ -229,6 +230,9 @@ metadata/_edit_lock_ = true
 
 [node name="Goldeo" parent="." unique_id=1907629656 instance=ExtResource("2_4717r")]
 position = Vector2(69, 92)
+
+[node name="Oldette" parent="." unique_id=1960324542 instance=ExtResource("4_4papg")]
+position = Vector2(210, 12)
 
 [node name="Camera" parent="." unique_id=986772349 instance=ExtResource("3_4717r")]
 

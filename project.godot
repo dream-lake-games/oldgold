@@ -17,7 +17,13 @@ config/icon="res://icon.svg"
 
 [autoload]
 
+Dialogue="*uid://buwk06ipfeson"
 CameraManager="*uid://gkkdxmp7ywiy"
+DialogueManager="*uid://c3rodes2l3gxb"
+
+[dialogue_manager]
+
+runtime/balloon_path="uid://13s5spsk34qu"
 
 [display]
 
@@ -30,7 +36,7 @@ window/stretch/scale_mode="integer"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/aseprite_spritesheet_importer/plugin.cfg")
+enabled=PackedStringArray("res://addons/aseprite_spritesheet_importer/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg")
 
 [importer_defaults]
 
@@ -107,6 +113,10 @@ select={
 ]
 }
 
+[internationalization]
+
+locale/translations_pot_files=PackedStringArray("res://npc/oldette/oldette.dialogue")
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
@@ -117,4 +127,5 @@ textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.8117647, 0.67058825, 0.31764707, 1)
 2d/snap/snap_2d_transforms_to_pixel=true

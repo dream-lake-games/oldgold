@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://deslbvsk6fhpe"]
+
+[ext_resource type="SpriteFrames" uid="uid://vvl0t0nyp4k4" path="res://npc/oldette/textures/oldette_spriteframes.tres" id="1_ck4ea"]
+[ext_resource type="Script" uid="uid://cqcur1rm7433g" path="res://addons/dialogue_manager/nodes/actionable/dialogue_actionable_2d.gd" id="2_6k7xs"]
+[ext_resource type="Resource" uid="uid://c3bm1s0dj3fmq" path="res://npc/oldette/oldette.dialogue" id="3_ulshk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3giaq"]
+size = Vector2(10, 10)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3giaq"]
+radius = 20.0
+
+[node name="Oldette" type="StaticBody2D" unique_id=1960324542]
+
+[node name="Anim" type="AnimatedSprite2D" parent="." unique_id=496864242]
+sprite_frames = ExtResource("1_ck4ea")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1772684433]
+shape = SubResource("RectangleShape2D_3giaq")
+
+[node name="Talk" type="Area2D" parent="." unique_id=2023570922]
+script = ExtResource("2_6k7xs")
+dialogue_resource = ExtResource("3_ulshk")
+dialogue_cue = "start"
+metadata/_custom_type_script = "uid://cqcur1rm7433g"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Talk" unique_id=165325387]
+shape = SubResource("CircleShape2D_3giaq")
