@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=18
+type="Resource"
+uid="uid://c3bm1s0dj3fmq"
+path="res://.godot/imported/oldette.dialogue-0889c7875f8e09d33ad3022300e9afa5.tres"
+
+[deps]
+
+source_file="res://npc/oldette/oldette.dialogue"
+dest_files=["res://.godot/imported/oldette.dialogue-0889c7875f8e09d33ad3022300e9afa5.tres"]
+
+[params]
+
+defaults=true

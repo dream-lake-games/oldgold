@@ -1,0 +1,10 @@
+~ start
+Oldette: Halt! You must be 18 or older to enter the castle.
+- I'm 19.
+	Oldette: Right this way.
+- I'm 15.
+	Oldette: Get outta town!
+- I know you are but what am I?
+	Oldette: I'm not sure what you mean, but go ahead.
+- Walk away => END
+=> END

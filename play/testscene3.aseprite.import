@@ -3,14 +3,14 @@
 importer="aseprite.spritesheet.importer"
 type="PortableCompressedTexture2D"
 uid="uid://bm0yummkvp635"
-valid=false
+path="res://.godot/imported/testscene3.aseprite-f2ad0be32747b770d9f62bb4b63b4b88.res"
 
 [deps]
 
-files=["res://play/textures/testscene3.tres", "res://play/textures/testscene3_spriteframes.tres"]
+files=["res://play/textures/testscene3_0.tres", "res://play/textures/testscene3_1.tres", "res://play/textures/testscene3_spriteframes.tres"]
 
 source_file="res://play/testscene3.aseprite"
-dest_files=["res://play/textures/testscene3.tres", "res://play/textures/testscene3_spriteframes.tres"]
+dest_files=["res://.godot/imported/testscene3.aseprite-f2ad0be32747b770d9f62bb4b63b4b88.res", "res://play/textures/testscene3_0.tres", "res://play/textures/testscene3_1.tres", "res://play/textures/testscene3_spriteframes.tres"]
 
 [params]
 

@@ -66,3 +66,14 @@ func _physics_process(delta: float) -> void:
 		velocity = Vector2.ZERO
 
 	move_and_slide()
+	
+func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("a"):
+		var nearest_actionable := DialogueActionable2D.get_nearest_actionable_to(global_position)
+		if nearest_actionable and nearest_actionable.overlaps_body(self):
+			nearest_actionable.action()
+			
+
+		
+		
+		

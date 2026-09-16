@@ -1,0 +1,32 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://b7tyyxqtmxj4j"]
+
+[ext_resource type="Texture2D" path="res://.godot/imported/testscene.aseprite-a32ebfcdc13df61c03f50364424f295b.res" id="1_5qycv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0io0p"]
+atlas = ExtResource("1_5qycv")
+region = Rect2(0, 0, 160, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lowjo"]
+atlas = ExtResource("1_5qycv")
+region = Rect2(160, 0, 160, 144)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gmolf"]
+atlas = ExtResource("1_5qycv")
+region = Rect2(320, 0, 160, 144)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0io0p")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lowjo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gmolf")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 6.0
+}]
