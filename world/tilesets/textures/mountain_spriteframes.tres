@@ -1,0 +1,18 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://bwmhsh0j5owal"]
+
+[ext_resource type="Texture2D" path="res://.godot/imported/mountain.aseprite-d2a46288fcb0954ce139c3fc3d3f9a75.res" id="1_6cfmx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6cfmx"]
+atlas = ExtResource("1_6cfmx")
+region = Rect2(0, 0, 256, 256)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6cfmx")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 10.0
+}]

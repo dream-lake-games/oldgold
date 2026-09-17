@@ -6,7 +6,8 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_hm2s7"]
 size = Vector2(12, 4)
 
-[node name="Goldeo" type="CharacterBody2D" unique_id=1907629656]
+[node name="Goldeo" type="CharacterBody2D" unique_id=1907629656 groups=["goldeo"]]
+z_index = 1
 y_sort_enabled = true
 script = ExtResource("1_hm2s7")
 

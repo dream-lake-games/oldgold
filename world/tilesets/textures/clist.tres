@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://ccvc4ek2cxorr"]
+
+[ext_resource type="Texture2D" path="res://.godot/imported/clist.aseprite-8ef5a6359e1330c49f1ca299c765ca0a.res" id="1_3jtnp"]
+
+[resource]
+atlas = ExtResource("1_3jtnp")
+region = Rect2(0, 0, 64, 64)

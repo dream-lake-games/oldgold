@@ -1,0 +1,7 @@
+[gd_resource type="AtlasTexture" format=3 uid="uid://2gn8mpwevsho"]
+
+[ext_resource type="Texture2D" path="res://.godot/imported/playrock_tiled.aseprite-70497434c93bbf93985db3e272bb4d6f.res" id="1_veibw"]
+
+[resource]
+atlas = ExtResource("1_veibw")
+region = Rect2(64, 0, 16, 16)

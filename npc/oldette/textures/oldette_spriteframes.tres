@@ -2,7 +2,7 @@
 
 [ext_resource type="Texture2D" path="res://.godot/imported/oldette.aseprite-4112a078dc2f9d49264375d61d8dd195.res" id="1_gwwdx"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_auvor"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_gwwdx"]
 atlas = ExtResource("1_gwwdx")
 region = Rect2(0, 0, 16, 16)
 
@@ -10,7 +10,7 @@ region = Rect2(0, 0, 16, 16)
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_auvor")
+"texture": SubResource("AtlasTexture_gwwdx")
 }],
 "loop": 0,
 "name": &"default",

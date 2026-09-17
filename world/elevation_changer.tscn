@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://i6w8kaxbi2w7"]
+
+[ext_resource type="Script" uid="uid://rk51cfeawoju" path="res://world/elevation_changer.gd" id="1_8ake2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_blmhc"]
+size = Vector2(8, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pldo3"]
+size = Vector2(8, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jp76j"]
+size = Vector2(8, 8)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_88frk"]
+size = Vector2(8, 8)
+
+[node name="ElevationChanger" type="Node2D" unique_id=1887714904]
+z_index = 100
+script = ExtResource("1_8ake2")
+
+[node name="UpArea" type="Area2D" parent="." unique_id=1051929027]
+collision_layer = 65535
+collision_mask = 65535
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="UpArea" unique_id=1929444402]
+position = Vector2(0, -8)
+shape = SubResource("RectangleShape2D_blmhc")
+
+[node name="LeftArea" type="Area2D" parent="." unique_id=61094367]
+collision_layer = 65535
+collision_mask = 65535
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftArea" unique_id=1024221774]
+position = Vector2(-8, 0)
+shape = SubResource("RectangleShape2D_pldo3")
+
+[node name="DownArea" type="Area2D" parent="." unique_id=1496787473]
+collision_layer = 65535
+collision_mask = 65535
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DownArea" unique_id=827845743]
+position = Vector2(0, 8)
+shape = SubResource("RectangleShape2D_jp76j")
+
+[node name="RightArea" type="Area2D" parent="." unique_id=653023798]
+collision_layer = 65535
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightArea" unique_id=915864769]
+position = Vector2(8, 0)
+shape = SubResource("RectangleShape2D_88frk")

@@ -1,12 +1,13 @@
 class_name Goldeo extends CharacterBody2D
 
+# KNOBS
+
+@export var speed := 85
+
 # PARTS
 
 @onready var anim: AnimatedSprite2D = $Anim
 
-# KNOBS
-
-@export var speed := 85
 
 # STATE
 
@@ -45,11 +46,23 @@ func _process_anim() -> void:
 		Facing.DOWN:
 			anim.flip_h = false
 			anim.play("s_run" if is_moving else "s_idle")
-		
+
 
 func _process(delta: float) -> void:
 	_process_facing()
 	_process_anim()
+
+	if Input.is_action_just_pressed("a"):
+		self.z_index -= 1
+		self.z_index = max(self.z_index, 1)
+		print(self.z_index)
+	if Input.is_action_just_pressed("b"):
+		self.z_index += 1
+		print(self.z_index)
+	for ix in range(1, 32):
+		set_collision_layer_value(ix, self.z_index == ix)
+		set_collision_mask_value(ix, self.z_index == ix)
+
 
 func _physics_process(delta: float) -> void:
 	var input_dir = Input.get_vector("left", "right", "up", "down").normalized()
