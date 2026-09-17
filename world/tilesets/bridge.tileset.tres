@@ -1,0 +1,14 @@
+[gd_resource type="TileSet" format=3 uid="uid://bkkuy3kw0hoet"]
+
+[ext_resource type="Texture2D" uid="uid://caldfttr32t1g" path="res://world/tilesets/textures/bridge.tres" id="1_t83ew"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_cdc55"]
+texture = ExtResource("1_t83ew")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+
+[resource]
+physics_layer_0/collision_layer = 0
+physics_layer_0/collision_mask = 0
+sources/0 = SubResource("TileSetAtlasSource_cdc55")

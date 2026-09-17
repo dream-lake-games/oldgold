@@ -1,0 +1,18 @@
+[gd_resource type="SpriteFrames" format=3 uid="uid://v840bhiv37lc"]
+
+[ext_resource type="Texture2D" path="res://.godot/imported/bridge.aseprite-05116dc40eac3c6d3732aff3f4bcfdb8.res" id="1_kfx53"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kfx53"]
+atlas = ExtResource("1_kfx53")
+region = Rect2(0, 0, 64, 64)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kfx53")
+}],
+"loop": 0,
+"name": &"default",
+"speed": 10.0
+}]

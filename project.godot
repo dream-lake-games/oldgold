@@ -38,6 +38,10 @@ window/stretch/scale_mode="integer"
 
 enabled=PackedStringArray("res://addons/aseprite_spritesheet_importer/plugin.cfg", "res://addons/dialogue_manager/plugin.cfg")
 
+[global_group]
+
+goldeo=""
+
 [importer_defaults]
 
 aseprite.spritesheet.importer={
