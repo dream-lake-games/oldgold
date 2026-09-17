@@ -459,6 +459,3 @@ down_z = 1
 position = Vector2(-312, -380)
 up_z = 6
 down_z = 3
-
-[node name="Goldeo" parent="." unique_id=1907629656 instance=ExtResource("2_4717r")]
-position = Vector2(296, -249)
