@@ -1,0 +1,32 @@
+[gd_resource type="Theme" format=3 uid="uid://22oevdle542q"]
+
+[ext_resource type="FontFile" uid="uid://xph3hii21x3e" path="res://fonts/Pixeloid_Font_1_0/TrueType (.ttf)/PixeloidSans-Bold.ttf" id="1_8fdts"]
+[ext_resource type="FontFile" uid="uid://dswbuef8g7efy" path="res://fonts/Pixeloid_Font_1_0/TrueType (.ttf)/PixeloidSans.ttf" id="1_yv15v"]
+[ext_resource type="FontFile" uid="uid://c1ry28uopm5ox" path="res://fonts/Pixeloid_Font_1_0/TrueType (.ttf)/PixeloidMono.ttf" id="2_y1bcg"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_x2qb6"]
+bg_color = Color(0.8117647, 0.67058825, 0.31764707, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.3019608, 0.13333334, 0.17254902, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yv15v"]
+bg_color = Color(0.8117647, 0.67058825, 0.31764707, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.3019608, 0.13333334, 0.17254902, 1)
+
+[resource]
+default_font = ExtResource("1_yv15v")
+default_font_size = 9
+Panel/styles/panel = SubResource("StyleBoxFlat_x2qb6")
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_yv15v")
+RichTextLabel/colors/default_color = Color(0.12941177, 0.043137256, 0.105882354, 1)
+RichTextLabel/fonts/bold_font = ExtResource("1_8fdts")
+RichTextLabel/fonts/mono_font = ExtResource("2_y1bcg")
+ShadowedRichTextLabel/base_type = &"RichTextLabel"
+ShadowedRichTextLabel/colors/default_color = Color(0.6156863, 0.39607844, 0.29803923, 1)

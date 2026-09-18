@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://b2ybe7osdcjsh"]
+
+[ext_resource type="Theme" uid="uid://22oevdle542q" path="res://dialogue/dialogue_theme.tres" id="1_x2qb6"]
+
+[node name="Control" type="Control" unique_id=988349522]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_x2qb6")
+
+[node name="Panel" type="Panel" parent="." unique_id=1915090238]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 82.0
+offset_right = 152.0
+offset_bottom = 136.0
+
+[node name="Speaker" type="RichTextLabel" parent="Panel" unique_id=800386355]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 4.0
+offset_right = 140.0
+offset_bottom = 15.0
+theme_type_variation = &"ShadowedRichTextLabel"
+bbcode_enabled = true
+text = "GOLDEO:"
+scroll_active = false
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="Panel" unique_id=1984211054]
+layout_mode = 0
+offset_left = 4.0
+offset_top = 17.0
+offset_right = 140.0
+offset_bottom = 50.0
+bbcode_enabled = true
+text = "Oldette you old as hell!
+For real girl.
+Like, so old."
+scroll_active = false

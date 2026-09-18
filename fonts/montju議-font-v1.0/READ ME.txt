@@ -1,0 +1,32 @@
+Montjuïc (v.1.0)
+
+ABOUT:
+
+Montjuïc is a pixel-art  font letter that I did for practice type design.  
+I didn't use reference during the proces, but I've been clearly influenced 
+by fonts I like. For instance; "Gill Sans" or "Montserrat".  
+
+SUPPORTED CHARACTERS :
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+abcdefghijklmnopqrstuvwxyz
+1234567890!¡?¿ . , : ; () *  % # @ “” <> = _ +− /\ <> [] {} ^ & ’ " $ ·
+ÁÀÂÄÃÅáàâäãåÉÈÊËẼéèêëẽÍÌÎÏĨíìîïĩÓÒÔÖÕóòôöõÚÙÛÜŨúùûüũ
+ÇçĞğÑñŞşß
+
+MORE:
+
+If you use it in Aseprite I hardly recommend to use Size: 14.
+Keep in mind that I'm a beginner so you could find some issues. If that 
+happens, let a comment and I will work to solve it. It is a free to use 
+font as long as you don't use it for commercial use. If you want to 
+do so, contact with me.
+
+
+Note: Attribution is not required, but would be appreciated. <3
+
+
+LICENSE:
+
+Open Font License Version 1.1
+
